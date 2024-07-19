@@ -1,0 +1,110 @@
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #001229;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5c7799;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(46, 46, 46, 0.831);
+  cursor: pointer;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  font-family: "Satoshi Variable", Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.bg-dark {
+  background: #001229;
+}
+
+.bg-light{
+  background: #1A293D;
+}
+
+.bg-blue{
+  background: #199BD1;
+}
+
+.bg-light-yellow{
+  background: #FFCC001F;
+}
+
+.bg-light-green{
+  background: #1FBA461F;
+}
+
+.text-yellow{
+  color: #FFCC00;
+}
+
+.text-green{
+  color: #1FBA46;
+}
+
+.heading-size{
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+}
+
+.text-secondary{
+  @apply text-gray-500
+}
+
+.text-primary{
+  color: #199BD1;
+}
+
+.rainbow-p-around_large {
+  background-color: #243347 !important;
+}
+.sc-gmPhUn {
+  color: #fff !important;
+}
+.sc-cfxfcM {
+  color: #fff !important;
+}
+.jRozxq {
+  color: #199bd1 !important;
+}
+.fKBdIn {
+  background-color: #243347 !important;
+  color: #fff !important;
+}
+.sc-feUZmu {
+  color: white !important;
+}
+.sc-fPXMVe {
+  background-color: #243347 !important;
+  color: #fff !important;
+}
+.sc-gFqAkR {
+  background-color: #243347 !important;
+  color: #fff !important;
+}
+.bg-gradient {
+  background: linear-gradient(to right, #199ad13d, #06afb2);
+}
+
+.grad-blur {
+  background-image: linear-gradient(rgba(0, 18, 41, 0), #001229);
+}
+.grad-blur2 {
+  background-image: linear-gradient(to right, #001229, rgba(0, 18, 41, 0));
+}
